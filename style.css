@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: p;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    max-width: 1200;
+    margin: 0 auto;
+    text-align: justify;
+}
+.img{
+    margin-bottom: 50px;
+    width: 50%;
+
+}
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)), 
+        url(https://w0.peakpx.com/wallpaper/1008/976/HD-wallpaper-space-universe.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+}
+
+.menu .navbar ul li a:hover{
+    color: #CE967B;
+    text-align: center;
+}
+
+#menu {
+    display:none;
+}
+
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.section{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)), 
+    url(https://cdn.colombia.com/sdi/2022/06/08/hallan-aminoacidos-esenciales-para-ser-humano-asteroide-1036661.webp);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+}
+.section2{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)), 
+    url(https://w0.peakpx.com/wallpaper/412/639/HD-wallpaper-deep-space-deep-space-planets.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.section3{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)), 
+    url(https://img.freepik.com/foto-gratis/puntos-estrellas-navidad_1048-3246.jpg?w=826&t=st=1690743989~exp=1690744589~hmac=637d0a7a133e696d681880add20be55a0d55d83b2aaccb71e686b04a3a079ce6);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.section4{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)), 
+    url(https://p4.wallpaperbetter.com/wallpaper/280/62/536/night-starry-night-night-sky-starry-sky-wallpaper-preview.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.footer{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)), 
+    url(https://p4.wallpaperbetter.com/wallpaper/609/51/728/nature-landscape-mountains-starry-night-wallpaper-preview.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    color: #FFFDFC;
+}
+
+
+.p{
+color: #FFFDFC;
+
+}
+
